@@ -6,7 +6,7 @@ from PyQt6.QtWidgets import *
 from PyQt6.QtWebEngineWidgets import *
 from PyQt6.QtWebEngineCore import *
 
-STORAGE_DIR = "my_browser_data"
+STORAGE_DIR = "browyer_data"
 TABS_FILE = os.path.join(STORAGE_DIR, "tabs.json")
 
 if not os.path.exists(STORAGE_DIR):
